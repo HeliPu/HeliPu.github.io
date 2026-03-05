@@ -1,81 +1,15 @@
+# 👋 Heli Pudas | Portfolio
 
-<
-<title>Heli Pudas | Portfolio</title>
-<section id="header">
-    <header>
-        <span class="image omakuva"><img src="images/omakuva.png" alt="Heli Pudas" width="130" height="170" /></span>
-        <h1 id="logo"><a href="#">Heli Pudas</a></h1>
-        <p>ICT-insinööriopiskelija & <br /> Hallinnon ammattilainen</p>
-    </header>
-    <nav id="nav">
-        <ul>
-            <li><a href="#one" class="active">Esittely</a></li>
-            <li><a href="#two">Osaaminen</a></li>
-            <li><a href="#work">Nykyinen rooli</a></li>
-            <li><a href="#four">Yhteystiedot</a></li>
-        </ul>
-    </nav>
-    <footer>
-        <ul class="icons">
-            <li><a href="https://www.linkedin.com/in/heli-pudas-b48785226/" class="icon brands fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-            <li><a href="https://github.com/HeliPu" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="mailto:heli.pudas@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-    </footer>
-</section>
+Tämä on GitHub-portfolioni, joka löytyy livenä osoitteesta: **[helipu.github.io](https://helipu.github.io/)**
 
-<div id="wrapper">
+### ICT-insinööriopiskelija & Hallinnon asiantuntija
 
-    <div id="main">
+Yhdistän analyyttisen IT-osaamisen ja vahvan operatiivisen kokemuksen resurssienhallinnasta. Tällä hetkellä työskentelen tavaranhallinnan assistenttina Lidl Suomi Oy:llä.
 
-        <section id="one"
-            <div class="container">
-                <header class="major">
-                    <h2>Hallinnon ja teknologian osaaja</h2>
-                    <p>Yhdistän analyyttisen IT-osaamisen vahvaan operatiivisen hallinnon kokemukseen.</p>
-                </header>
-                <p>Olen ICT-insinööriopiskelija (Jamk), ohjelmistokehittäjä ja merkonomi. Nykyisessä työssäni tavaranhallinnan assistenttina Lidl Suomi Oy:llä vastaat 66 myymälän tavaravirroista, analysoinnista ja resurssien ohjauksesta. Olen järjestelmällinen organisoija, joka nauttii monimutkaisten kokonaisuuksien hallinnasta ja uusien teknologioiden hyödyntämisestä prosessien tehostamisessa.</p>
-            </div>
-        </section>
+**Osaamisalueet:**
+* **Järjestelmät:** Relex, WFM, MS Office 365
+* **Teknologiat:** Python, C#, SQL, HTML/CSS
+* **Hallinto:** Resurssien suunnittelu, sidosryhmätyöskentely, merkonomin tutkinto
 
-        <section id="two">
-            <div class="container">
-                <h3>Ydinosaaminen</h3>
-                <ul class="feature-icons">
-                    <li class="icon solid fa-database">Resurssienhallinta (Relex, WFM)</li>
-                    <li class="icon solid fa-users">Sidosryhmäyhteistyö</li>
-                    <li class="icon solid fa-code">Python & C#</li>
-                    <li class="icon solid fa-file-excel">MS Office 365 (Edistynyt)</li>
-                    <li class="icon solid fa-terminal">SQL & Tietokannat</li>
-                    <li class="icon solid fa-shield-alt">Kyberturvallisuuden perusteet</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="work">
-            <div class="container">
-                <h3>Nykyinen vastuualue</h3>
-                <p><strong>Tavaranhallinnan assistentti, Lidl Suomi Oy</strong></p>
-                <p>Hallinnoin keskitetysti 66 myymälän saatavuutta ja logistiikkaketjun toimivuutta:</p>
-                <ul>
-                    <li>Määritän toimitusmääriä (HeVi, liha, kuivatavara) ja optimoin resurssien jakoa.</li>
-                    <li>Suoritan ennustekorjauksia ja menekin seurantaa <strong>Relex</strong>-järjestelmässä.</li>
-                    <li>Toimin tiiviissä yhteistyössä ostoryhmien, kampanjatiimin ja myymäläkentän välillä.</li>
-                    <li>Kehitän tilausapulistoja operatiivisen toiminnan tueksi.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="four">
-            <div class="container">
-                <h3>Ota yhteyttä</h3>
-                <p>Etsin uusia haasteita, joissa voin hyödyntää hallinnollista tarkkuuttani ja teknistä osaamistani.</p>
-                <ul class="actions">
-                    <li><a href="mailto:heli.pudas@hotmail.com" class="button primary">Lähetä sähköpostia</a></li>
-                    <li><a href="https://www.linkedin.com/in/heli-pudas-b48785226/" class="button">LinkedIn-profiili</a></li>
-                </ul>
-            </div>
-        </section>
-
-    </div>
-</div>
+---
+📫 [LinkedIn](https://www.linkedin.com/in/heli-pudas-b48785226/) | [Sähköposti](mailto:heli.pudas@hotmail.com)
