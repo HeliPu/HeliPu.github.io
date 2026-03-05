@@ -28,10 +28,7 @@
 
     <div id="main">
 
-        <section id="one">
-            <div class="image main" data-position="center">
-                <img src="images/tausta.png" alt="tausta" />
-            </div>
+        <section id="one"
             <div class="container">
                 <header class="major">
                     <h2>Hallinnon ja teknologian osaaja</h2>
