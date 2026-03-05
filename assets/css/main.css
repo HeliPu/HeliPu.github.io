@@ -75,10 +75,10 @@ header.major h2 + p {
 .image img { display: block; width: 100%; border-radius: 5px; }
 .image.main { display: block; width: 100%; height: 15em; overflow: hidden; }
 .image.main img { object-fit: cover; width: 100%; height: 100%; }
-.image.omakuva { border-radius: 100%; overflow: hidden; margin-bottom: 1em; }
-.image.omakuva img { border-radius: 100%; }
+.image.profpic { border-radius: 100%; overflow: hidden; margin: 0 auto 1em auto; width: 130px; height: 170px; }
+.image.profpic img { border-radius: 100%; object-fit: cover; width: 100%; height: 100%; }
 
-/* Icons */
+/* Icons / Feature Icons */
 ul.feature-icons { display: flex; flex-wrap: wrap; padding: 0; list-style: none; }
 ul.feature-icons li { 
 	width: 50%; 
@@ -92,22 +92,26 @@ ul.feature-icons li:before {
 	position: absolute;
 	left: 0;
 	top: 1em;
-	background: #3498db; /* Huomion sininen */
+	background: #3498db; 
 	color: #fff;
-	width: 2em;
-	height: 2em;
-	line-height: 2em;
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
 	text-align: center;
 	border-radius: 100%;
 }
-
-/* --- TÄSTÄ ALKAA UUDET KORJAUKSET --- */
 
 /* Button & Actions (Väli painikkeille) */
 ul.actions {
 	display: flex;
 	flex-direction: column;
-	gap: 15px; /* Lisää välin Lähetä sähköpostia ja LinkedIn-palkkien välille */
+	gap: 20px !important; /* Pakotetaan väli Lähetä sähköpostia ja LinkedIn-painikkeen välille */
+	padding: 0;
+	margin: 2em 0;
+	list-style: none;
+}
+
+ul.actions li {
 	padding: 0;
 }
 
@@ -120,10 +124,13 @@ ul.actions {
 	display: inline-block;
 	border: 0;
 	text-align: center;
+	min-width: 200px;
+	cursor: pointer;
+	transition: background-color 0.2s;
 }
 .button:hover { background-color: #2980b9; }
 
-/* Sidebar Icons (Kuvakkeiden näkyvyys) */
+/* Sidebar Icons & General Icon Rules */
 .icon {
 	text-decoration: none;
 	border-bottom: none;
@@ -139,10 +146,8 @@ ul.actions {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	/* Nämä varmistavat kuvakkeiden näkyvyyden */
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 400;
-	font-size: 1.5em;
 }
 
 .icon.brands:before {
@@ -156,18 +161,22 @@ ul.actions {
 ul.icons {
 	cursor: default;
 	list-style: none;
-	padding: 0;
+	padding: 1em 0;
+	margin: 0;
 }
 
 ul.icons li {
 	display: inline-block;
-	padding: 0 1em 0 0;
+	padding: 0 0.75em;
 }
 
-/* --- KORJAUKSET PÄÄTTYVÄT --- */
+ul.icons li a:before {
+    font-size: 1.5em;
+    color: #ecf0f1;
+}
 
 /* Mobile Adjustments */
 @media screen and (max-width: 1024px) {
-	#header { display: none; } /* Mobiilissa sivupalkki piiloon tai vaatii toggle-napin */
+	#header { display: none; }
 	#wrapper { padding-right: 0; }
 }
